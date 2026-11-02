@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NLP Lab — Interactive NLP Simulations for Beginners</title>
+  <meta name="description" content="Learn Natural Language Processing by doing: 10 interactive simulations covering tokenization, stemming, TF-IDF, classification, language models, BPE, embeddings, POS/NER and attention.">
+  <meta name="theme-color" content="#080b10">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation"></aside>
+    <div class="main">
+      <header class="topbar" id="topbar"></header>
+      <main class="content" id="content" role="main"></main>
+    </div>
+  </div>
+
+  <!-- Core: no build step, no dependencies, works from file:// -->
+  <script src="assets/js/engine.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/guide.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/start.js"></script>
+
+  <!-- Labs (each registers NLP.views.<id>) -->
+  <script src="assets/js/labs/preprocess.js"></script>
+  <script src="assets/js/labs/stem.js"></script>
+  <script src="assets/js/labs/tfidf.js"></script>
+  <script src="assets/js/labs/similarity.js"></script>
+  <script src="assets/js/labs/classify.js"></script>
+  <script src="assets/js/labs/lm.js"></script>
+  <script src="assets/js/labs/bpe.js"></script>
+  <script src="assets/js/labs/embeddings.js"></script>
+  <script src="assets/js/labs/pos.js"></script>
+  <script src="assets/js/labs/attention.js"></script>
+</body>
+</html>

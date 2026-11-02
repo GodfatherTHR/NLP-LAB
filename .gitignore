@@ -1,0 +1,6 @@
+node_modules/
+tests/shots/_regression/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.commandcode/
